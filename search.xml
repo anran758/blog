@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[数组方法深入研究之三 (基础算法)]]></title>
+    <url>%2Fblog%2F2017%2F11%2F06%2FBasic%20Algorithm%20Scripting%20-%203%2F</url>
+    <content type="text"><![CDATA[今天让继续来学习数组方法的用法~ Sum All Numbers in a Range 题目描述 &emsp;&emsp;传递给一个包含两个数字的数组。返回这两个数字和它们之间所有数字的和。最小的数字并非总在最前面。比如传递[1, 4]会返回10, 即1 + 2 + 3 + 4. 非数组方法1234567891011121314 function sumAll(arr) &#123; var max = Math.max.apply(null, arr); var min = Math.min.apply(null,arr); var num = max - min; var total = min; while(num) &#123; num--; total += ++min; &#125; return total;&#125;sumAll([1, 1]);]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>ffc</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[通过sourcetree实现远程仓库与本地仓库关联]]></title>
+    <url>%2Fblog%2F2017%2F11%2F03%2F%E9%80%9A%E8%BF%87sourcetree%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E4%B8%8E%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%85%B3%E8%81%94%2F</url>
+    <content type="text"><![CDATA[&emsp;&emsp;sourceTree 是当下比较流行的git客户端,简化了如何与Git存储库进行交互，从而可以专注于编码, 可以通过简单的Git GUI可视化来管理仓库, 提高效率. &emsp;&emsp;题归正转, 今天我们来说说如何通过sourcetree来将本地仓库与远程仓库关联. 步骤&emsp;首先把本地仓库初始化. &emsp;再添加到sourcetree上 &emsp;进入github.com -&gt; your profile -&gt; repositories(仓库) -&gt; New &emsp;填写仓库信息, 复制仓库链接 &emsp;设置 -&gt; 添加 -&gt; 填写信息 -&gt; 确定 &emsp;然后就可以提交到github了~]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>sourcetree</tag>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[数组方法深入研究之二 (基础算法)]]></title>
+    <url>%2Fblog%2F2017%2F07%2F19%2FBasic%20Algorithm%20Scripting%20-%202%2F</url>
+    <content type="text"><![CDATA[数组方法的深入学习 Chunky Monkey(分割数组)猴子吃香蕉, 分割数组,把一个数组arr按照指定的数组大小size分割成若干个数组块。例如: &#8195;&#8195;hunk([1,2,3,4],2) =&gt; [[1,2],[3,4]]; &#8195;&#8195;chunk([1,2,3,4,5],2) =&gt; [[1,2],[3,4],[5]]; 思路 &#8195;这道题重点主要是每size个值分割一个数组,这里我们可以使用以下几种方法来解题. while + splice for + slice while + slice 第一种12345678910111213141516// while + splicefunction chunk(arr, size) &#123; // 定义一个新数组和用来临时存放分割的空数组. var a = [], t = [], i = 0, len = arr.length; while (i &lt; len)&#123; t = arr.splice(0, size); a.push(t); i += size; &#125; return a;&#125;chunk([0, 1, 2, 3, 4, 5], 3); &#8195;在这里值得注意的是,len保存arr.length的快照是必须的..因为splice会修改原来原来的数组. 第二种12345678910111213141516171819// for + splicefunction chunk(arr, size) &#123; var a = [], t = [], len = arr.length; // 数组中的个数小于size或者size是小于等于0的也就没有必要分割了 if (len &lt;= size || size &lt;= 0) &#123; return arr; &#125; else &#123; // 它的重点主要是数组中的值的数量 for (var i = 0;i &lt; len; i += size) &#123; // 查询指定数 t = arr.slice(i, i + size); a.push(t); &#125; &#125; return a;&#125;chunk([0, 1, 2, 3, 4, 5], 3); 第三种1234567891011121314// while + slicefunction chunk(arr, size) &#123; var a = [], t = [], i = 0, len = arr.length; while (i &lt; len) &#123; // 查询的值 t = arr.slice(i, i += size); a.push(t); &#125; return a;&#125;chunk([0, 1, 2, 3, 4, 5], 3); Falsy Bouncer(过滤数组假值)删除数组中的所有假值。在JavaScript中，假值有false、null、0、””、undefined 和 NaN。 思路 &#8195;这道题比较有意思..一开始我走进了一个误区,想着单纯return x !== false &amp;&amp; ...这样简单的返回就可以了,后来发现在处理NaN时会很麻烦..isNaN()还会把英文字符串也给过滤掉,再加上多个&amp;&amp;使得代码会变得繁乱,可读性不高.&#8195;然后查阅了一番资料后,才注意到平时被忽略Boolean()的一些特性对于处理这种类型的问题简直不能太合适. 12345678910function bouncer(arr) &#123; // 请把你的代码写在这里 var a = arr.filter(function(x) &#123; return Boolean(x); &#125;); return a;&#125;bouncer([7, "ate", "", false, 9]); &#8195;摘至MDN.Boolean 的描述: 如果Boolean构造函数的参数不是一个布尔值,则该参数会被转换成一个布尔值.如果参数是 0, -0, null, false, NaN, undefined, 或者空字符串 (“”),生成的Boolean对象的值为false. 其他任何值,包括任何对象或者字符串”false”, 都会创建一个值为true的Boolean对象. Seek and Destroy (摧毁指定数组)实现一个摧毁(destroyer)函数，第一个参数是待摧毁的数组，其余的参数是待摧毁的值。 实现原理 &#8195;filter() 为数组中的每个元素调用一次 callback函数，并利用所有使得 callback 返回 true 或 等价于 true 的值 的元素创建一个新数组.&#8195;filter()从头至尾遍历数组,若回调函数返回的是true(通过测试),就存入新数组中.若返回的是false,则过滤掉. 12345678910111213141516function destroyer(arr) &#123; // 先将第一个参数隔开,定义一个储存着待移除的空数组 var args = arguments[0], removeArgs = []; // 要被删除的参数装进'removeArgs'里 for (var i = 1; i &lt; arguments.length; i++) &#123; removeArgs.push(arguments[i]); &#125; // 遍历'args',若'removeArgs'中不存在'value',应该返回-1.反之返回false被过滤掉. return args.filter(function(value) &#123; return removeArgs.indexOf(value) === -1; &#125;);&#125;destroyer([1, 2, 3, 1, 2, 3], 2, 3); Where do I belong (数组排序并找出元素索引)先给数组排序，然后找到指定的值在数组的位置，最后返回位置对应的索引。 &#8195;举例：where([1,2,3,4], 1.5) 应该返回 1。因为1.5插入到数组[1,2,3,4]后变成[1,1.5,2,3,4]，而1.5对应的索引值就是1。 &#8195; 同理，where([20,3,5], 19) 应该返回 2。因为数组会先排序为 [3,5,20]，19插入到数组[3,5,20]后变成[3,5,19,20]，而19对应的索引值就是2。 思路 &#8195;这个没啥好说的了..将第二个参数push进数组中,再进行排序.排序后通过indexOf()来实现功能.不过需要注意的是sort默认是按照’Unicode’编码进行排序的. Caesars Cipher (凯撒密码)风靡全球的凯撒密码Caesar cipher，又叫移位密码。移位密码也就是密码中的字母会按照指定的数量来做移位。一个常见的案例就是ROT13密码，字母会移位13个位置。由’A’ ↔ ‘N’, ‘B’ ↔ ‘O’，以此类推。写一个ROT13函数，实现输入加密字符串，输出解密字符串。所有的字母都是大写，不要转化任何非字母形式的字符(例如：空格，标点符号)，遇到这些特殊字符，跳过它们。 思路 &#8195;本次练习用到String.charCodeAt()和String.fromCharCode(),首先来查询字符串的Unicode字符.&#8195;根据Unicode表我们得知: 小于65和大于90对应的就是数字和小写字符a-z 大于等于65和小于等于77对应的就是大写字符A-M (13位) 大于等于78和小于等于90对应的就是大写字符N-Z&#8195;ROT13的功能就是移位,如果序号小于78(A-M字母)，使用String.fromCharCode()转换成该序号加13的字符,反之减13. 1234567891011121314151617181920212223function rot13(str) &#123; // LBH QVQ VG! var newStr = []; for (var i = 0;i &lt; str.length;i ++) &#123; // 查询每个字符串的Unicode编号 var temp = str.charCodeAt(i); // 非大写字母,空格,数字等都不转换 if (temp &lt; 65 || temp &gt; 91) &#123; newStr.push(str.charAt(i)); continue; // 大于77(N-Z),就转换成该序号 - 13的字符串. &#125; else if (temp &gt; 77) &#123; newStr.push(String.fromCharCode(temp - 13)); // 小于78(A-M),就转换成该序号 + 13的字符串 &#125; else &#123; newStr.push(String.fromCharCode(temp + 13)); &#125; &#125; return newStr.join('');&#125;rot13("SERR PBQR PNZC"); // 你可以修改这一行来测试你的代码]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>ffc</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[数组方法深入研究之一 (基础算法)]]></title>
+    <url>%2Fblog%2F2017%2F07%2F16%2FBasic%20Algorithm%20Scripting%20-%201%2F</url>
+    <content type="text"><![CDATA[一些基础的算法练习 Palindromes(回文处理)Palindromes称之为回文。在中文文当中是指倒着念和顺着念都是相同的，前后对称. 正则表达式 replace() 1234567function palindrome(str) &#123; var string = str.replace(/[\W_]/g,'').toLowerCase(); var replaceStr = string.split('').reverse().join(''); return replaceStr === string;&#125;palindrome("eye"); // true 思路 &#8195;首先对字符串进行处理..去掉字符串多余的标点符号和空格，然后把字符串转化成小写.&#8195;split把字符串拆分为一个字符串组成的数组.reverse反转数组顺序,join拼接字符串. Title Case a Sentence(首个单词字母大写)句中单词首字母大写,确保字符串的每个单词首字母都大写，其余部分小写。 1234567function titleCase(str) &#123; return str.toLowerCase().replace(/( |^)[a-z]/g, function(L) &#123; return L.toUpperCase(); &#125;);&#125;titleCase("I'm a little tea pot"); // I'm A Little Tea Pot 思路 &#8195;首先把字符串转换为小写,再用正则匹配带空格或者就字母开头的首个字母replace替换成大写字母. Return Largest Numbers in Arrays(返回数组最大的数字)找出多个数组中的最大数,并返回一个新数组 12345678910111213function largestOfFour(arr) &#123; // 请把你的代码写在这里 var count = []; for (var i = 0; i &lt; arr.length; i ++) &#123; var a = arr[i].sort(function (a,b) &#123; return b-a; &#125;); count.push(a[0]); &#125; return count;&#125;largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]); // [5,27,39,1001] 思路 &#8195;新定义一个数组,遍历传进来的数组进行从大到小排序,将排序后最大的数push进新的数组count最后再返回. Confirm the Ending(检查字符串结尾)检查字符串结尾,判断一个字符串(str)是否以指定的字符串(target)结尾。如果是，返回true;如果不是，返回false。 123456789101112function confirmEnding(str, target) &#123; var l = str.length - target.length; if (str.substr(l) === target) &#123; return true; &#125; else &#123; return false; &#125;&#125;confirmEnding("Connor", "n"); // falseconfirmEnding("Bastian", "n"); // trueconfirmEnding("He has to give me a new name", "me"); // true 思路 &#8195;乍一看好像挺麻烦的样子,容我们深入一看却发现好像并没有想象中的麻烦..&#8195;这里用上了String.prototype.substr()而参数start是一个字符的索引,把字符串str.length - target.length就可以对比结尾字符串是否一样了. Repeat a string repeat a string(重复输出字符串)重复一个指定的字符串 num次，如果num是一个负数则返回一个空字符串。 &#8195;对于这种题目可以使用两种方法解决: 递归 while循环 12345678910111213// 第一种使用递归function repeat(str, num) &#123; // 请把你的代码写在这里 if (num &lt; 0)&#123; return ""; &#125; else if (num === 1) &#123; return str; &#125; else &#123; return str + repeat(str, num - 1); &#125;&#125;repeat("abc", 3); // "abcabcabc" 1234567891011// 第二种使用whilefunction repeat(str, num) &#123; var s = ''; while(num &gt; 0)&#123; s += str; num --; &#125; return s;&#125;repeat("abc", 3); 思路 &#8195;递归一般放进if()判断语句中,是一种通过重复地调用函数本身,逐次减少num的值来实现效果.第二种使用了while语句,每调用一次就递减1,直至num &gt; 0. Truncate a string(截断字符串)截断字符串,如果字符串的长度比指定的参数num长，则把多余的部分用…来表示。插入到字符串尾部的三个点号也会计入字符串的长度。如果指定的参数num小于或等于3，则添加的三个点号不会计入字符串的长度。 12345678910111213function truncate(str, num) &#123; // 首先判断num的值是不是大于字符串的长度,若是,那就没有必要省略了. if(num &gt;= str.length) &#123; return str; &#125; else if (num &lt;= 3) &#123; return str.slice(0,num) + "..."; &#125; else &#123; return str.slice(0,num-3) + "..."; &#125;&#125;truncate("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length); 思路 &#8195;slice截取字符串.substr(),indexOf()和lastIndexOf()办法同理.https://www.w3cplus.com/javascript/confirm-the-ending.html 大漠老师有一篇文章对此使用有着更详细的说明.]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>ffc</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+</search>
