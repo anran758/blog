@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://anran758.github.io/blog/blog/2020/12/22/closure-and-function-chaining/</loc>
-    <lastmod>2020-12-24</lastmod>
-  </url>
-  <url>
-    <loc>https://anran758.github.io/blog/blog/2020/10/31/react-retrospection/</loc>
-    <lastmod>2020-11-06</lastmod>
+    <loc>https://anran758.github.io/blog/blog/2020/09/27/hexo-issue/</loc>
+    <lastmod>2020-12-26</lastmod>
   </url>
   <url>
     <loc>https://anran758.github.io/blog/blog/2020/11/04/react-retrospection-2/</loc>
-    <lastmod>2020-11-06</lastmod>
+    <lastmod>2020-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://anran758.github.io/blog/blog/2020/10/31/react-retrospection/</loc>
+    <lastmod>2020-12-26</lastmod>
+  </url>
+  <url>
+    <loc>https://anran758.github.io/blog/blog/2020/12/22/closure-and-function-chaining/</loc>
+    <lastmod>2020-12-24</lastmod>
   </url>
   <url>
     <loc>https://anran758.github.io/blog/blog/2018/11/23/miniprogrmas-build-frame/</loc>
@@ -26,10 +30,6 @@
   </url>
   <url>
     <loc>https://anran758.github.io/blog/blog/2017/11/03/use-sourcetree-association/</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://anran758.github.io/blog/blog/2020/09/27/hexo-issue/</loc>
     <lastmod>2020-11-01</lastmod>
   </url>
   <url>
