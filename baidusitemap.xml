@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anran758.github.io/blog/blog/2017/10/15/%E6%B5%85%E8%B0%88Normalize%E4%B8%8Ereset/</loc>
+    <lastmod>2021-01-19</lastmod>
+  </url>
+  <url>
     <loc>https://anran758.github.io/blog/blog/2020/09/27/hexo-issue/</loc>
     <lastmod>2020-12-26</lastmod>
   </url>
@@ -22,10 +26,6 @@
   </url>
   <url>
     <loc>https://anran758.github.io/blog/blog/2017/07/16/array-method-test/</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://anran758.github.io/blog/blog/2017/10/15/%E6%B5%85%E8%B0%88Normalize%E4%B8%8Ereset/</loc>
     <lastmod>2020-11-01</lastmod>
   </url>
   <url>
