@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anran758.github.io/blog/blog/2018/01/25/web-%E8%B5%B0%E8%BF%9Bweb%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2021-03-21</lastmod>
+  </url>
+  <url>
     <loc>https://anran758.github.io/blog/blog/2017/10/15/%E6%B5%85%E8%B0%88Normalize%E4%B8%8Ereset/</loc>
     <lastmod>2021-01-19</lastmod>
   </url>
@@ -211,9 +215,5 @@
   <url>
     <loc>https://anran758.github.io/blog/blog/2018/02/06/dev-zero-configuration-vscode/</loc>
     <lastmod>2020-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://anran758.github.io/blog/blog/2018/01/25/web-%E8%B5%B0%E8%BF%9Bweb%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2020-10-28</lastmod>
   </url>
 </urlset> 
