@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anran758.github.io/blog/blog/2021/04/13/w3c-validator/</loc>
+    <lastmod>2021-04-15</lastmod>
+  </url>
+  <url>
+    <loc>https://anran758.github.io/blog/blog/2020/10/31/react-retrospection/</loc>
+    <lastmod>2021-04-14</lastmod>
+  </url>
+  <url>
     <loc>https://anran758.github.io/blog/blog/2021/02/10/note-023333/</loc>
     <lastmod>2021-04-11</lastmod>
   </url>
@@ -22,10 +30,6 @@
   </url>
   <url>
     <loc>https://anran758.github.io/blog/blog/2020/11/04/react-retrospection-2/</loc>
-    <lastmod>2020-12-26</lastmod>
-  </url>
-  <url>
-    <loc>https://anran758.github.io/blog/blog/2020/10/31/react-retrospection/</loc>
     <lastmod>2020-12-26</lastmod>
   </url>
   <url>
