@@ -16,14 +16,14 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/categories/</loc>
+    <loc>https://anran758.github.io/blog/about/</loc>
     
     <lastmod>2021-10-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/about/</loc>
+    <loc>https://anran758.github.io/blog/categories/</loc>
     
     <lastmod>2021-10-04</lastmod>
     
@@ -212,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/2018/11/23/miniprogrmas-build-frame/</loc>
+    <loc>https://anran758.github.io/blog/2019/02/11/miniprograms-download-image/</loc>
     
     <lastmod>2021-10-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/2019/02/11/miniprograms-download-image/</loc>
+    <loc>https://anran758.github.io/blog/2018/11/23/miniprogrmas-build-frame/</loc>
     
     <lastmod>2021-10-04</lastmod>
     
@@ -480,6 +480,13 @@
   </url>
   
   <url>
+    <loc>https://anran758.github.io/blog/tags/%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/</loc>
+    <lastmod>2021-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://anran758.github.io/blog/tags/vue/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
@@ -495,13 +502,6 @@
   
   <url>
     <loc>https://anran758.github.io/blog/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2021-10-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -564,20 +564,6 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2021-10-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</loc>
-    <lastmod>2021-10-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://anran758.github.io/blog/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
@@ -593,6 +579,20 @@
   
   <url>
     <loc>https://anran758.github.io/blog/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/</loc>
+    <lastmod>2021-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2021-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -676,6 +676,20 @@
   </url>
   
   <url>
+    <loc>https://anran758.github.io/blog/tags/%E4%BB%A3%E7%A0%81%E5%86%B2%E7%AA%81/</loc>
+    <lastmod>2021-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/CI/</loc>
+    <lastmod>2021-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://anran758.github.io/blog/tags/cookie/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
@@ -698,20 +712,6 @@
   
   <url>
     <loc>https://anran758.github.io/blog/tags/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98/</loc>
-    <lastmod>2021-10-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/%E4%BB%A3%E7%A0%81%E5%86%B2%E7%AA%81/</loc>
-    <lastmod>2021-10-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/CI/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1070,14 +1070,14 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://anran758.github.io/blog/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://anran758.github.io/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
