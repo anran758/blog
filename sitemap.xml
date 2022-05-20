@@ -1012,20 +1012,6 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/tags/tag/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/mysql/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://anran758.github.io/blog/tags/git-flow/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
@@ -1048,6 +1034,20 @@
   
   <url>
     <loc>https://anran758.github.io/blog/tags/DNS/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/MySql/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/SQL/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1204,6 +1204,13 @@
   
   <url>
     <loc>https://anran758.github.io/blog/categories/%E7%BD%91%E7%BB%9C%E5%8E%9F%E7%90%86/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/categories/%E5%AE%9E%E8%B7%B5%E8%80%83%E6%A0%B8/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
