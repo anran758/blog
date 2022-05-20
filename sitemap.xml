@@ -473,6 +473,20 @@
   </url>
   
   <url>
+    <loc>https://anran758.github.io/blog/tags/git/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/github/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://anran758.github.io/blog/tags/vue/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
@@ -488,20 +502,6 @@
   
   <url>
     <loc>https://anran758.github.io/blog/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/git/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/github/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -998,6 +998,13 @@
   </url>
   
   <url>
+    <loc>https://anran758.github.io/blog/tags/npm/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://anran758.github.io/blog/tags/transform/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
@@ -1005,7 +1012,14 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/tags/npm/</loc>
+    <loc>https://anran758.github.io/blog/tags/tag/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://anran758.github.io/blog/tags/mysql/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1039,20 +1053,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://anran758.github.io/blog/tags/tag/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://anran758.github.io/blog/tags/mysql/</loc>
-    <lastmod>2022-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -1063,14 +1063,14 @@
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/categories/JavaScript/</loc>
+    <loc>https://anran758.github.io/blog/categories/git/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://anran758.github.io/blog/categories/git/</loc>
+    <loc>https://anran758.github.io/blog/categories/JavaScript/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
