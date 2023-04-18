@@ -53,11 +53,13 @@
 {"title":"React 知识回顾 (优化篇)","url":"/blog/2020/11/04/react-retrospection-2/"},
 {"title":"闭包与链式设计的使用示例","url":"/blog/2020/12/22/closure-and-function-chaining/"},
 {"title":"二叉树学习笔记","url":"/blog/2021/01/05/binary-tree/"},
+{"title":"JavaScript 实现二叉树","url":"/blog/2021/01/05/binary-tree/"},
 {"title":"软件工程笔记","url":"/blog/2021/02/10/note-023333/"},
 {"title":"Accessibility Parsing 无障碍页面分析","url":"/blog/2021/04/13/w3c-validator/"},
 {"title":"计算机网络原理笔记","url":"/blog/2021/08/15/note-04741/"},
 {"title":"MySQL 试手","url":"/blog/2022/05/16/mysql-note/"},
 {"title":"MySQL 实践","url":"/blog/2022/05/16/mysql-note/"},
 {"title":"02331-数据结构","url":"/blog/2022/05/18/note-02331/"},
+{"title":"数据结构实践","url":"/blog/2022/05/18/note-02331/"},
 {"title":"C++ 实现 Vector 向量","url":"/blog/2022/05/21/note-04737/"},
 ]
