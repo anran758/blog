@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anran758.github.io/blog/blog/2022/01/22/event-bus/</loc>
+    <lastmod>2023-12-15</lastmod>
+  </url>
+  <url>
     <loc>https://anran758.github.io/blog/blog/2017/12/15/Vue%E9%A1%B9%E7%9B%AE%E4%B8%ADAxios%E6%8A%A5%E9%94%99Pomise%E6%9C%AA%E5%AE%9A%E4%B9%89%E5%8F%8AIE10%E6%8A%A5%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2023-12-15</lastmod>
   </url>
@@ -225,11 +229,11 @@
     <lastmod>2021-10-04</lastmod>
   </url>
   <url>
-    <loc>https://anran758.github.io/blog/blog/2019/07/26/configuring-mac-front-end-development-env-from-zero/</loc>
+    <loc>https://anran758.github.io/blog/blog/2020/12/22/closure-and-function-chaining/</loc>
     <lastmod>2021-10-04</lastmod>
   </url>
   <url>
-    <loc>https://anran758.github.io/blog/blog/2020/12/22/closure-and-function-chaining/</loc>
+    <loc>https://anran758.github.io/blog/blog/2019/07/26/configuring-mac-front-end-development-env-from-zero/</loc>
     <lastmod>2021-10-04</lastmod>
   </url>
   <url>
